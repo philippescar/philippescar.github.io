@@ -2,8 +2,8 @@
 name: "Thoughts From Phil"
 title: "Thoughts From Phil"
 description: "A blog about my thoughts regarding the current state of the Tech Industry"
-url: ####
-baseurl: '/philippescar.github.io.staging'
+url: https://philippescar.dev/
+baseurl: '/'
 favicon: 'assets/images/favicon.png'
 logo: 'assets/images/logo-plainSVG.svg'
 permalink: /:year/:month/:day/:title
@@ -69,11 +69,6 @@ sidebar:
   featured: true
   recent_posts: true
 
-# AddThis Inline Share Buttons
-addthis: 
-  pid: #ra-5d01c83d522ad580 # Addthis profile id
-  wid: #7kfz # Addthis widget id
-
 # Google Custom Search Engine ID
 cse_id: #011006674894885990812:tjln7k0nyjx 
 
@@ -104,8 +99,8 @@ buymeacoffee: #chriskyfung
 # Copyright Start Year
 copyright: 
   prefix: 
-  ownership: #Chris KY FUNG
-  link: #https://chriskyfung.github.io/
+  ownership: Philippe Carvalho
+  link: https://philippescar.dev/
 
 ############################################################
 # Site configuration for the WebP Generator Plugin
