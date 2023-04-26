@@ -9,7 +9,7 @@ $yellow_fff100: #fff100;
 
 .beforefooter {
   background: linear-gradient(rgba(255, 241, 0, .8), rgba(255, 241, 0, .8)),
-                url("https://chriskyfung.github.io/images/header-bg.jpg");
+    url(../images/header-bg.jpg);
   background-size: contain;
   background-position-x: center;
   background-blend-mode: overlay;
@@ -28,7 +28,7 @@ $yellow_fff100: #fff100;
   .beforefooter {
     background-blend-mode: overlay;
     background-color: $yellow_fff100;
-    background-image: url("https://chriskyfung.github.io/images/header-bg.jpg");
+    background-image: url(../images/header-bg.jpg);
   }
 }
 
