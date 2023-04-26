@@ -356,7 +356,7 @@ span.post-read-more a:hover {
 }
 
 .intro {
-    background-image: url(/images/head.svg);
+    background-image: url('/images/head.svg');
     background-size: contain;
     margin-top: -87px;
     margin-bottom: 3.5rem;
