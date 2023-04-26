@@ -41,6 +41,7 @@ jekyll-archives:
 nav:
   buttons:
     gh_sponsors: false # Show GitHub Sponsors button
+    invitation_codes: false # Disable Invitation Codes
   global:
     menu: false
     dropdown: false # Show menu with dropdown submenu
@@ -98,7 +99,7 @@ buymeacoffee: #chriskyfung
 
 # Copyright Start Year
 copyright: 
-  prefix: 
+  prefix: Copyright © 2022-
   ownership: Philippe Carvalho
   link: https://philippescar.dev/
 
