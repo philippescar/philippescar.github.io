@@ -397,7 +397,7 @@
  }
 
  .intro {
-     background-image: url(../images/head.svg);
+     background-image: url(/images/head.svg);
      background-size: contain;
      padding: 9rem 0;
      margin-top: -87px;

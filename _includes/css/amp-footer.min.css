@@ -1,5 +1,5 @@
 .beforefooter {
-    background: linear-gradient(rgba(255, 241, 0, .8), rgba(255, 241, 0, .8)), url(../images/header-bg.jpg);
+    background: linear-gradient(rgba(255, 241, 0, .8), rgba(255, 241, 0, .8)), url(/images/header-bg.jpg);
     background-size: contain;
     background-position-x: center;
     background-blend-mode: overlay;
@@ -13,7 +13,7 @@
 @supports (background-blend-mode:overlay) {
     .beforefooter {
         background-color: #fff100;
-        background-image: url(../images/header-bg.jpg);
+        background-image: url(/images/header-bg.jpg);
         background-blend-mode: overlay
     }
 }
