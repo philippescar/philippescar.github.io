@@ -40,18 +40,18 @@ jekyll-archives:
 # Navigation features
 nav:
   buttons:
-    gh_sponsors: true # Show GitHub Sponsors button
+    gh_sponsors: false # Show GitHub Sponsors button
   global:
     menu: false
     dropdown: false # Show menu with dropdown submenu
   local:
     items:
-      - name: Features
-        url: category/feature/
-      - name: Docs
-        url: category/doc/
-      - name: Samples
-        url: category/sample/
+      - name: Career
+        url: category/career/
+      - name: Technology
+        url: category/technology/
+      - name: Management
+        url: category/management/
     menu: true
     title:
       limit: 40
