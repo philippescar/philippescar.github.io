@@ -17,9 +17,7 @@ Se você faz uso de qualquer rede social você tem visto propagandas te prometen
 
 Para quem já atua na área, sabe que isso é apenas uma forma de vender bootcamp com um monte de termos em inglês e transferir a responsabilidade para quem frequentou, até porque "_tá cheio de vagas na área, se você não conseguir uma, a culpa é sua_".
 
-![alt_text](./../assets/images/posts/mentirinhas_1970.jpeg "Crédito: Mentirinhas do Coala")
-
-{% include picture.html source="assets" img="fmentirinhas_1970.jpeg" %}
+{% include picture.html source="assets" img="mentirinhas_1970.jpeg" link="https://philippescar.dev" %}
 
 A verdade é que por mais que exista um déficit gigante de pessoas para trabalhar com desenvolvimento de software, a maioria das empresas hoje em dia, quer um profissional com alguma experiência, e não só em desenvolver software (o que aliás é o menos) mas também em como se comportar dentro de um time de desenvolvimento, muitas vezes antes de começar a escrever a primeira linha de código você tem 3 ou 4 reuniões onde os requisitos são discutidos, você tem alinhamento com clientes externos e isso um bootcamp não vai te ensinar.
 
