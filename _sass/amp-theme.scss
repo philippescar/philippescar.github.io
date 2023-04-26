@@ -63,7 +63,7 @@ pre {
   background: $whitesmoke_f7fafb;
   border: $aliceblue_e3edf3 1px solid;
   border-radius: 3px;
-       box-sizing: border-box;
+  box-sizing: border-box;
   font-display: swap;
   font-size: 14px;
   line-height: 1.3;
@@ -171,8 +171,14 @@ section {
   ul {
     margin-bottom: 1.5rem;
   }
+
   color: rgba(0, 0, 0, .8);
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria,
+  Cochin,
+  Georgia,
+  Times,
+  'Times New Roman',
+  serif;
   font-size: 1.1rem;
   line-height: 1.8;
 
@@ -239,9 +245,9 @@ section {
 
   img {
     &.shadow {
-         -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, .3);
+      -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, .3);
       -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, .3);
-              box-shadow: 0 0 10px 0 rgba(0, 0, 0, .3);
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, .3);
     }
   }
 }
@@ -254,6 +260,7 @@ section {
     font-weight: 500;
     padding: 20px 0;
   }
+
   border-top: 1px solid $whitesmoke_eee;
   border-bottom: 1px solid $whitesmoke_eee;
   margin-left: 0;
@@ -275,6 +282,7 @@ section {
         padding-left: 1em;
         padding-right: 1em;
       }
+
       color: $darkslategray_333;
       font-size: .94em;
       font-weight: 500;
@@ -298,10 +306,10 @@ section {
 
 .listfeaturedtag {
   .wrapmeta {
-        -ms-flex: 100%;
+    -ms-flex: 100%;
     -webkit-box-flex: 0;
     -webkit-flex: 100%;
-            flex: 100%;
+    flex: 100%;
     max-width: 100%;
     min-height: 1px;
     padding: 0;
@@ -310,10 +318,10 @@ section {
   }
 
   .wrapthumbnail {
-        -ms-flex: 100%;
+    -ms-flex: 100%;
     -webkit-box-flex: 0;
     -webkit-flex: 100%;
-            flex: 100%;
+    flex: 100%;
     height: 250px;
     max-width: 100%;
     min-height: 1px;
@@ -389,6 +397,7 @@ section {
       }
     }
   }
+
   width: 100%;
 
   .wrapfooter {
@@ -439,6 +448,7 @@ section {
       float: none;
       margin-top: 40px;
     }
+
     text-align: center;
 
     .btn {
@@ -546,7 +556,7 @@ span {
 }
 
 .intro {
-  background-image: url("https://chriskyfung.github.io/amp-affiliately-jekyll-theme/assets/images/head.svg");
+  background-image: url(../images/head.svg);
   background-size: contain;
   margin-top: -87px;
   margin-bottom: 3.5rem;
@@ -616,6 +626,7 @@ blockquote {
     font-size: .95rem;
     margin-bottom: 10px;
   }
+
   display: none;
 
   ul {
@@ -634,9 +645,11 @@ blockquote {
         }
       }
     }
+
     padding-left: 0;
     margin-left: 0;
   }
+
   color: rgba(0, 0, 0, .44);
   fill: rgba(0, 0, 0, .44);
 
@@ -801,6 +814,7 @@ blockquote {
   &:-ms-input-placeholder {
     color: rgba(0, 0, 0, .5);
   }
+
   border: 1px solid $whitesmoke_eee;
   border-radius: 0;
 }
@@ -854,6 +868,7 @@ blockquote {
       text-indent: 5%;
     }
   }
+
   font-family: inherit;
 }
 
