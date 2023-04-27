@@ -1,14 +1,14 @@
 # Site
 name: "Thoughts From Phil"
-title: "Thoughts From Phil"
+title: "My thoughts"
 description: "A blog about my thoughts regarding the current state of the Tech Industry"
 url: https://philippescar.dev/
-baseurl: '/'
-favicon: 'assets/images/favicon.png'
-logo: 'assets/images/logo-plainSVG.svg'
+baseurl: "/"
+favicon: "assets/images/favicon.png"
+logo: "assets/images/logo-plainSVG.svg"
 permalink: /:year/:month/:day/:title
 paginate: 6
-timezone: 'Europe/Berlin'
+timezone: "Europe/Berlin"
 
 # Build Settings
 remote_theme: chriskyfung/amp-affiliately-jekyll-theme
@@ -33,9 +33,9 @@ jekyll-archives:
     - categories
     - tags
   layout: archive
-  permalinks: 
-    category: '/category/:name/'
-    tag: '/tag/:name/'
+  permalinks:
+    category: "/category/:name/"
+    tag: "/tag/:name/"
 
 # Navigation features
 nav:
@@ -71,7 +71,7 @@ sidebar:
   recent_posts: true
 
 # Google Custom Search Engine ID
-cse_id: #011006674894885990812:tjln7k0nyjx 
+cse_id: #011006674894885990812:tjln7k0nyjx
 
 # Analytics
 google_analytics: #'UA-72575541-9' # Google Analytics Tracking ID
@@ -80,7 +80,7 @@ gtm: #'GTM-WQMQK3X' # Google Tag Manager ID
 
 # Google Ads
 adstyle: true
-adsense: 
+adsense:
   client_id: #'ca-pub-4819282024314540' # Google Adsense client ID
   auto_ads: true
   ad_slot:
@@ -90,7 +90,7 @@ adsense:
 # Social Buttons
 social:
   email: pcarvalho.ti@gmail.com
-  github : philippescar
+  github: philippescar
   linkedin: philippescar
   twitter: opsphil
 
@@ -98,7 +98,7 @@ social:
 buymeacoffee: #chriskyfung
 
 # Copyright Start Year
-copyright: 
+copyright:
   prefix: Copyright © 2022-
   ownership: Philippe Carvalho
   link: https://philippescar.dev/
@@ -108,7 +108,7 @@ copyright:
 # The values here represent the defaults if nothing is set
 webp:
   enabled: false
-  
+
   # The quality of the webp conversion 0 to 100 (where 100 is least lossy)
   quality: 75
 
@@ -122,7 +122,7 @@ webp:
   # add ".gif" to the format list to generate webp for animated gifs as well
   formats: [".jpeg", ".jpg", ".png", ".tiff"]
 
-  # File extensions for animated gif files 
+  # File extensions for animated gif files
   gifs: [".gif"]
 
   # Set to true to always regenerate existing webp files
