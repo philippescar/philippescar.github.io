@@ -11,7 +11,7 @@
   </li>
   {%- endif -%}
 
-  {%- if site.baseurl != "" and site.baseurl != "/" and site.pages.size > 1 -%}
+  {%- if site.pages.size > 1 -%}
   {%- for item in site.nav.local.items -%}
   <li class="nav-item" role="none">
     <a id="nav-item-{{ nav_item_index }}" class="nav-link" href="{{ item.url | relative_url }}" role="menuitem">{{
