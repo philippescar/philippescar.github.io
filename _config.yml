@@ -3,7 +3,7 @@ name: "Thoughts From Phil"
 title: "Thoughts From Phil"
 description: "A blog about my thoughts regarding the current state of the Tech Industry"
 url: https://philippescar.dev/
-baseurl: "/"
+baseurl: "/philippescar.github.io.staging"
 favicon: "assets/images/favicon/favicon.png"
 logo: "assets/images/phil-carvalho.png"
 permalink: /:year/:month/:day/:title
