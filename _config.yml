@@ -3,7 +3,7 @@ name: "Thoughts From Phil"
 title: "Thoughts From Phil"
 description: "A blog about my thoughts regarding the current state of the Tech Industry"
 url: https://philippescar.dev
-baseurl: "/blog"
+baseurl: "/"
 favicon: "assets/images/favicon/favicon.png"
 logo: "assets/images/phil-carvalho.png"
 permalink: /:year/:month/:day/:title
@@ -71,17 +71,17 @@ sidebar:
   recent_posts: true
 
 # Google Custom Search Engine ID
-cse_id: #011006674894885990812:tjln7k0nyjx
+cse_id: b749edd80672d4c97
 
 # Analytics
 google_analytics: #'UA-72575541-9' # Google Analytics Tracking ID
-ga4: #'G-XMHYVLW301' # Google Analytics 4 Measurement ID
+ga4: "G-XMHYVLW301" # Google Analytics 4 Measurement ID
 gtm: #'GTM-WQMQK3X' # Google Tag Manager ID
 
 # Google Ads
 adstyle: true
 adsense:
-  client_id: #'ca-pub-4819282024314540' # Google Adsense client ID
+  client_id: "ca-pub-2988558136338994" # Google Adsense client ID
   auto_ads: true
   ad_slot:
     # before_content: 2454411055 # Ad Slot that places before content
@@ -95,7 +95,7 @@ social:
   twitter: opsphil
 
 # Buy Me a Coffee
-buymeacoffee: #chriskyfung
+buymeacoffee: philippescar
 
 # Copyright Start Year
 copyright:
@@ -107,7 +107,7 @@ copyright:
 # Site configuration for the WebP Generator Plugin
 # The values here represent the defaults if nothing is set
 webp:
-  enabled: false
+  enabled: true
 
   # The quality of the webp conversion 0 to 100 (where 100 is least lossy)
   quality: 75
