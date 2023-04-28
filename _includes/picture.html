@@ -23,7 +23,7 @@
 {%- assign name = img | remove: ext -%}
 {%- assign suffix = include.suffix -%}
 
-{%- assign set_width = include.width | default: 730 -%}
+{%- assign set_width = include.width -%}
 {%- assign set_height = include.height -%}
 
 {%- assign img_pathname = path | append: name | relative_url -%}
