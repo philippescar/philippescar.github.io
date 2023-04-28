@@ -5,6 +5,8 @@
 {%- assign path = site.image_path.assets | default: "/assets/images/" -%}
 {%- elsif include.source == "projects" -%}
 {%- assign path = site.image_path.projects | default: "/images/projects/" -%}
+{%- elsif include.source == "posts" -%}
+{%- assign path = site.image_path.posts | default: "/images/posts/" -%}
 {%- elsif include.source == "raw" -%}
 {%- assign path = "" -%}
 {%- else -%}
@@ -29,21 +31,25 @@
 {%- assign img_alt = include.alt | default: default_alt | escape_once -%}
 
 
-<figure {% if include.class %}class="{{ include.class }}"{% endif %}>
+<figure {% if include.class %}class="{{ include.class }}" {% endif %}>
   {%- if include.link -%}
   <a href="{{ include.link }}">
     {%- assign lightbox = "" -%}
     {%- endif -%}
     {%- if include.source == "raw" and include.img contains "://" -%}
-      <amp-img width="{{ set_width }}" height="{{ set_height }}" layout="{{ layout }}" src="{{ include.img }}" alt="{{ img_alt }}" {{ lightbox }}></amp-img>
+    <amp-img width="{{ set_width }}" height="{{ set_height }}" layout="{{ layout }}" src="{{ include.img }}"
+      alt="{{ img_alt }}" {{ lightbox }}></amp-img>
     {%- else -%}
-      {%- if ext == "svg" -%}
-      <amp-img width="{{ set_width }}" height="{{ set_height }}" layout="{{ layout }}" src="{{ img_pathname }}svg" alt="{{ img_alt }}" {{ lightbox }}></amp-img>
-      {%- else -%}
-      <amp-img width="{{ set_width }}" height="{{ set_height }}" layout="{{ layout }}" src="{{ img_pathname }}{{ suffix }}webp" alt="{{ img_alt }}" {{ lightbox }} >
-        <amp-img fallback width="{{ set_width }}" height="{{ set_height }}" layout="{{ layout }}" src="{{ img_pathname }}{{ suffix }}{{ ext }}" alt="{{ img_alt }}" {{ lightbox }}></amp-img>
-      </amp-img>
-      {%- endif -%}
+    {%- if ext == "svg" -%}
+    <amp-img width="{{ set_width }}" height="{{ set_height }}" layout="{{ layout }}" src="{{ img_pathname }}svg"
+      alt="{{ img_alt }}" {{ lightbox }}></amp-img>
+    {%- else -%}
+    <amp-img width="{{ set_width }}" height="{{ set_height }}" layout="{{ layout }}"
+      src="{{ img_pathname }}{{ suffix }}webp" alt="{{ img_alt }}" {{ lightbox }}>
+      <amp-img fallback width="{{ set_width }}" height="{{ set_height }}" layout="{{ layout }}"
+        src="{{ img_pathname }}{{ suffix }}{{ ext }}" alt="{{ img_alt }}" {{ lightbox }}></amp-img>
+    </amp-img>
+    {%- endif -%}
     {%- endif -%}
     {%- if include.link -%}
   </a>
