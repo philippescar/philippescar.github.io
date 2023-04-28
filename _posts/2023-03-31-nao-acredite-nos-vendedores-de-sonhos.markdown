@@ -19,8 +19,6 @@ Para quem já atua na área, sabe que isso é apenas uma forma de vender bootcam
 
 {% include picture.html source="posts" img="mentirinhas_1970.jpeg" link="https://philippescar.dev" %}
 
-{% endcapture %}
-
 A verdade é que por mais que exista um déficit gigante de pessoas para trabalhar com desenvolvimento de software, a maioria das empresas hoje em dia, quer um profissional com alguma experiência, e não só em desenvolver software (o que aliás é o menos) mas também em como se comportar dentro de um time de desenvolvimento, muitas vezes antes de começar a escrever a primeira linha de código você tem 3 ou 4 reuniões onde os requisitos são discutidos, você tem alinhamento com clientes externos e isso um bootcamp não vai te ensinar.
 
 **Então quer dizer que eu tenho que me contentar com o que tenho hoje?**
