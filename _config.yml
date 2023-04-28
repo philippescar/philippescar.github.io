@@ -5,7 +5,7 @@ description: "A blog about my thoughts regarding the current state of the Tech I
 url: https://philippescar.dev/
 baseurl: "/"
 favicon: "assets/images/favicon/favicon.png"
-logo: "assets/images/phil-carvalho.svg"
+logo: "assets/images/phil-carvalho.png"
 permalink: /:year/:month/:day/:title
 paginate: 6
 timezone: "Europe/Berlin"
