@@ -389,9 +389,9 @@ span.post-read-more a:hover {
 }
 
 .mediumnavigation .navbar-brand img {
-    margin-right: 7px;
     vertical-align: text-bottom;
     max-width: initial;
+    border-radius: 60% 60% 60% 60%
 }
 
 .mainheading h1.sitetitle {
