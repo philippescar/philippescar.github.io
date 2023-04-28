@@ -4,13 +4,13 @@
 {%- if include.source == "assets" -%}
 {%- assign path = site.image_path.assets | default: "/assets/images/" -%}
 {%- elsif include.source == "projects" -%}
-{%- assign path = site.image_path.projects | default: "/images/projects/" -%}
+{%- assign path = site.image_path.projects | default: "/assets/images/projects/" -%}
 {%- elsif include.source == "posts" -%}
-{%- assign path = site.image_path.posts | default: "/images/posts/" -%}
+{%- assign path = site.image_path.posts | default: "/assets/images/posts/" -%}
 {%- elsif include.source == "raw" -%}
 {%- assign path = "" -%}
 {%- else -%}
-{%- assign path = site.image_path.default | default: "/images/posts/" -%}
+{%- assign path = site.image_path.default | default: "/assets/images/posts/" -%}
 {%- endif -%}
 
 {%- if include.lightbox == false -%}
