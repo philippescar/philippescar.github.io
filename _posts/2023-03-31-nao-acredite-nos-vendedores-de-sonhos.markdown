@@ -4,7 +4,8 @@ title: "Não acredite em vendedores de sonhos"
 date: 2023-03-31 16:44:45 +0300
 image: 
     path: /assets/images/posts/2023-03-31-nao-acredite-header.jpeg
-tags: [Career, Technology]
+category: [career]
+tags: [career, technology]
 ---
 
 Eu sou nascido no final da década de 80 no Brasil e eu me lembro de crescer vendo o fenômeno das escolinhas de futebol, para aqueles que não são dessa época, essas escolas tinham placas anunciando programas de parceria com times da série A do Campeonato Brasileiro, algumas delas chegavam a enviar "olheiros" para escolas particulares e campos de futebol com o objetivo de convencer os responsáveis que a criança/adolescente tinha futuro, que se treinasse com eles tinha chance de um futuro incrível nas categorias de base, e até em jogar no exterior (isso bem na fase que vários brasileiros novos jogavam no Real Madrid e no Barcelona).

@@ -4,7 +4,8 @@ title: You are the owner of your career
 date: 2023-04-20 12:45:00 +0300
 image: 
     path: /assets/images/posts/2023-04-21-you-are-the-owner-of-your-career.jpeg
-tags: [Career, Technology, Growth]
+category: [career, feature]
+tags: [career, technology, growth]
 ---
 
 A few years ago, I was interviewing a senior engineer to join my team, and when I asked him the famous cliché question, *"Where do you see yourself in the next 5 years?"*, he stopped for a full minute before answering, *"I don't know, I never really stopped to think about it..."* I think just as he was surprised by the question, I was surprised by the answer. We were not talking about someone who had just started their career yesterday; it was a person with over a decade of experience and several large companies on their resume. He explained later that he had always focused on deliveries and becoming a senior engineer, so he never made a concrete plan for his career.
