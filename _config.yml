@@ -2,7 +2,7 @@
 name: "Thoughts From Phil"
 title: "Thoughts From Phil"
 description: "A blog about my thoughts regarding the current state of the Tech Industry"
-url: https://philippescar.dev/
+url: https://philippescar.dev
 baseurl: "/philippescar.github.io.staging"
 favicon: "assets/images/favicon/favicon.png"
 logo: "assets/images/phil-carvalho.png"
@@ -114,7 +114,7 @@ webp:
 
   # List of directories containing images to optimize, nested directories will only be checked if `nested` is true
   # By default the generator will search for a folder called `/img` under the site root and process all jpg, png and tiff image files found there.
-  img_dir: ["/images/", "/assets/images"]
+  img_dir: ["/images/", "/assets/images", "/assets/images/posts"]
 
   # Whether to search in nested directories or not
   nested: true
