@@ -5,7 +5,7 @@ date: 2023-04-14 10:00:00 +0300
 image: 
     path: /assets/images/posts/2023-04-14-senioridade-requer-tempo.jpeg
 category: [career, technology]
-tags: [career, technology, senior]
+tags: [Career, Technology, Senior]
 ---
 
 Nos últimos 5 anos estamos vendo a discussão sobre senioridade dentro da bolha de tecnologia tomar uma proporção muito maior do que deveria ter, e essa discussão se deve muito ao fato das pessoas não entenderem o que realmente faz um profissional de TI sênior em sua área.
