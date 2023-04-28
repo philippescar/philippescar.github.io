@@ -13,7 +13,7 @@
 @supports (background-blend-mode:overlay) {
     .beforefooter {
         background-color: #fff100;
-        background-image: url('/images/header-bg.jpg');
+        background-image: url('/assets/images/header-bg.jpg');
         background-blend-mode: overlay
     }
 }
