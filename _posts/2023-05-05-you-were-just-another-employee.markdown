@@ -3,7 +3,7 @@ layout: post
 title: You were just another employee 
 date: 2023-05-05 12:45:00 +0300
 image: 
-    path: /assets/images/posts/2023-05-05-you-were-just-another-employee.jpeg
+    path: /assets/images/posts/2023-05-05-you-were-just-another-employee.png
 category: [career, layoffs]
 tags: [Career, Technology, Growth]
 ---
