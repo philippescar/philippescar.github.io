@@ -10,7 +10,7 @@
 {%- assign dropdown_expanded_focus = dropdown_id | append: "-expanded-focus" -%}
 
 <li id="{{ dropdown_id }}" class="nav-item dropdown" role="none">
-  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" 
+  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button"
     aria-controls="{{ dropdown_submenu_id }}" aria-haspopup="true" aria-expanded="false"
     [aria-expanded]="{{ dropdown_expanded_var }} ? 'true' : 'false'" tabindex="0"
     on="tap:AMP.setState({ {{ dropdown_expanded_var }}: !{{ dropdown_expanded_var }} }),{{ dropdown_expanded_focus }}.focus">
