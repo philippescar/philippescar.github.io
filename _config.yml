@@ -47,12 +47,10 @@ nav:
     dropdown: false # Show menu with dropdown submenu
   local:
     items:
-      - name: Career
-        url: category/career/
-      - name: Technology
-        url: category/technology/
-      - name: Management
-        url: category/management/
+      - name: About Me
+        url: about/
+      - name: My Experience
+        url: https://www.linkedin.com/in/philippescar/
     menu: false
     title:
       limit: 40
