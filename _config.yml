@@ -44,7 +44,7 @@ nav:
     invitation_codes: false # Disable Invitation Codes
   global:
     menu: true
-    dropdown: true # Show menu with dropdown submenu
+    dropdown: false # Show menu with dropdown submenu
   local:
     items:
       - name: Career
