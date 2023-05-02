@@ -46,13 +46,13 @@ nav:
     menu: true
     dropdown: false # Show menu with dropdown submenu
   local:
-    items:
-      - name: Career
-        url: category/career/
-      - name: Technology
-        url: category/technology/
-      - name: Management
-        url: category/management/
+    #items:
+    #  - name: Career
+    #    url: category/career/
+    #  - name: Technology
+    #    url: category/technology/
+    #  - name: Management
+    #    url: category/management/
     menu: false
     title:
       limit: 40
