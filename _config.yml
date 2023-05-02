@@ -76,7 +76,7 @@ cse_id: b749edd80672d4c97
 # Analytics
 google_analytics: #'UA-72575541-9' # Google Analytics Tracking ID
 ga4: "G-XMHYVLW301" # Google Analytics 4 Measurement ID
-gtm: #'GTM-WQMQK3X' # Google Tag Manager ID
+gtm: "GTM-KXH3DP4" # Google Tag Manager ID
 
 # Google Ads
 adstyle: true
