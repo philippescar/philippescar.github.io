@@ -53,7 +53,7 @@ nav:
         url: category/technology/
       - name: Management
         url: category/management/
-    menu: true
+    menu: false
     title:
       limit: 40
 
