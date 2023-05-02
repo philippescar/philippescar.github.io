@@ -28,14 +28,14 @@ plugins:
   - jekyll-sitemap
 
 # Archives
-#jekyll-archives:
-#  enabled:
-#    - categories
-#    - tags
-#  layout: archive
-#  permalinks:
-#    category: "/category/:name/"
-#    tag: "/tag/:name/"
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layout: archive
+  permalinks:
+    category: "/category/:name/"
+    tag: "/tag/:name/"
 
 # Navigation features
 nav:
