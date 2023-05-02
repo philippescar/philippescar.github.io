@@ -1,0 +1,58 @@
+---
+layout: default
+disqus: false
+archive: false
+---
+
+{%- assign sidebar = page.sidebar | default: layout.sidebar | default: "right" -%}
+{%- if sidebar == "none" -%}
+{%- assign post_class = "no-sidebar" -%}
+{%- else -%}
+{%- assign post_class = "col-md-8 col-lg-8" -%}
+{%- assign sidebar_class = sidebar | append: '-sidebar' -%}
+{%- endif -%}
+
+<!-- Begin Article -->
+
+<!-- Post -->
+{%- assign author = site.data.authors[page.author] -%}
+{%- unless author -%}
+{%- assign author = site.authors[page.author] -%}
+{%- endunless -%}
+
+<div id="post" class="{{ post_class }}">
+    <div class="mainheading">
+
+        <!-- Post Title -->
+        <h1 class="posttitle">About the author</h1>
+
+    </div>
+
+    <!-- Post Content -->
+    <div class="article-post">
+        <h2 id="overview">About Me</h2>
+        <p>Welcome to my page! My name is Phil Carvalho and I am a seasoned Manager with over 18 years of experience in
+            the tech industry.</p>
+
+        <p>Throughout my career, I have worked in various roles such as Tech Lead, Engineering Manager, and Senior
+            Engineer Manager. My passion for technology and leadership has driven me to continuously improve my skills
+            and knowledge, allowing me to effectively lead and motivate my teams to achieve exceptional results.</p>
+
+        <p>As a Manager, I prioritize building a strong team culture and fostering an environment of collaboration and
+            innovation. I believe that empowering my team members to take ownership of their work and providing them
+            with the necessary resources and support leads to higher productivity, job satisfaction, and ultimately
+            better outcomes for the organization.</p>
+
+        <p>In addition to my managerial skills, I have a strong technical background and am proficient in Site
+            Reliability Engineering Topics, Golang and Python Development. This knowledge has enabled me to effectively
+            communicate with technical teams and provide guidance on complex technical projects.</p>
+
+        <p>When I'm not working, I enjoy cooking and photograph. I find that pursuing my passions outside of work helps
+            me maintain a healthy work-life balance and fuels my creativity.</p>
+
+        <p>Thank you for taking the time to learn more about me. I look forward to connecting with you!</p>
+    </div>
+
+    <!-- End Post -->
+
+    <!-- End Article -->
